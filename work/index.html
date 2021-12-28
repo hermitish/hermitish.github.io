@@ -6,6 +6,7 @@
 		color: #e0ce94;
 		margin: 33px;
 		background: #2352fc;
+		padding: 10px;
 	}
 	a {
 		color: yellow;
@@ -16,7 +17,16 @@
 		right: 100;
 		border-radius: 50%;
 		width: 100px;			
-		height: 100px
+		height: 100px;	
+	}
+	#works_list {
+		text-align: left;
+		padding-left: 150px;
+		padding-right: 300px;
+		padding-top: 50px;		
+	}
+	#works_list > li {
+		padding-bottom: 10px;
 	}
 	</style>
 	</head>
@@ -24,8 +34,9 @@
 	<body>
 		<a href="../index.html">Home</a>
 		<h1>Work</h1>
-		<ul>
+		<ul id="works_list">
 			<li><a href="https://github.com/hermitish/DIYLinks">DIYLinks</a> - <a href="https://news.ycombinator.com">Hacker News</a> like site, but only for (mostly tech) projects, tutorials etc.</li>			
+			<li><a href="https://top.gg/bot/908025685610758214">Discord Matchbot</a> - A silly little discord bot that lets you maintain a list of crushes and check periodically if it is mutual(however silly this might be, it has helped me learn quite a bit about discord bot making and working with firebase).</li>
 			<li><a href="https://amimappy.github.io/class-link-check">Class Link Check</a> - Chrome extension that checked for google meet links on google classroom pages and alerted students.<br>I am solely a maintainer of the <a href="https://github.com/AmiMappy/class-link-check">project</a> now.</li>
 			<li>A <b>Myriad</b> of other shelved, abandoned and even missing projects that have/may never see the light of day.</li>
 		</ul>		
