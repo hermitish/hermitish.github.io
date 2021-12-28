@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>
+            br template            
+        </title>        
+        <style type="text/css">
+            a {
+                color: yellow
+            }
+            body {
+                color: #e0ce94;
+                margin: 33px;
+                background: #2352fc;
+            }
+            #avatar {
+                position: absolute;
+                top: 50;
+                right: 100;
+                border-radius: 50%;
+                width: 100px;			
+                height: 100px
+            }
+            #info {
+                text-align: left;
+                font-style: italic;                            
+            }
+            #review_body {
+                padding: 50px;
+            }            
+            #opening {
+                font-style: italic;                
+                padding-left: 27px;
+            }            
+            #opening::first-letter{
+                font-size: 2em;
+                color: darkorange;
+            }
+            #review_main_text {
+                padding-left: 30px;                
+            }
+            </style>
+    </head>
+    <body>
+        <img src="../avatar2.png" alt="hermitish" id="avatar">
+        <h2>hermitish's book reviews and notes</h2>
+        <a href="../index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">More Reviews</a>
+        <h1 style="text-align: center;">Title of Book</h1>
+        <span id="info">
+            <ul style="list-style-type: none;">
+                <li>Author: </li>
+                <li>Genre(s): </li>
+                <li>Publisher and Date: </li>
+                <li>Page Count: </li>
+                <li>Time Taken to Finish: </li>
+                <li>Rating (out of 10): </li>
+            </ul>
+        </span>
+        <div id="review_body">
+            <img src="./assets/1984.jpg" alt="1984_Orwell" style="float: inline-start; height: 400px; width: 300px;">                                                
+            <h4 id="opening">Opening Line</h4>
+                <span id="review_main_text">                    
+                    This book was really good...            
+                </span>
+        </div>        
+    </body>
+</html>
