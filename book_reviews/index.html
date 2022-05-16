@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title>book reviews</title>
+		<link rel="stylesheet" href="virtual-bookshelf-main/bookshelf.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style type="text/css">
 		/* For mobile phones: */
@@ -54,15 +55,34 @@
 		border-radius: 50%;
 		width: 100px;			
 		height: 100px
-	}
+	}	
 	</style>
 	</head>
 	<img id="avatar" src="../avatar2.png"></img>
 	<body>
 		<a href="../index.html">Home</a>
-		<h1> hermitish's book reviews </h1>				
-		<ul>
-			<li><a href="crime_and_punishment.html"><b>crime and punishment</b> - fyodor dostoyevsky</a> </li>			
-		</ul>
+		<h1> hermitish's book reviews </h1>
+		<!--
+			<ul>
+				<li><a href="crime_and_punishment.html"><b>crime and punishment</b> - fyodor dostoyevsky</a> </li>			
+			</ul>
+		-->
+		<div class="bookshelf">
+			<div class="book">
+				<a href="crime_and_punishment.html">				
+					<div class="side spine" style="height: 280px; top: 0px; background-image: var(--argyle); background-color: black;">
+						<span class="spine-title" style="font-size: larger;">crime and punishment</span>
+						<span class="spine-author">FD</span>					
+					</div>
+				</a>
+				<div class="side top" style="top: 0px;"></div>
+				<div class="side cover", style="background-image: url(assets/crime_and_punishment.jpg); height: 280px; top: 0px;"></div>
+			</div>
+		</div>
+		<div style="position: relative; width: 600px; height: 800px;">			
+			<div style="position: absolute; bottom: 5px">
+				<i>Thanks to <a href="https://petargyurov.com/" target="_blank">Petar</a> for the cool <a href="https://github.com/petargyurov/virtual-bookshelf" target="_blank">virtual bookshelf</a>!</i>
+			</div>
+		</div>
 	</body>
 </html>
