@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>book reviews</title>
+		<link rel="stylesheet" href="virtual-bookshelf-main/bookshelf.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">	
+		a {
+			color: yellow
+		}
+		body {
+			color: #e0ce94;
+			margin: 33px;
+			background: #2352fc;
+		}
+		#avatar {
+			position: absolute;
+			top: 50;
+			right: 100;
+			border-radius: 50%;
+			width: 7%;
+		}
+		#wrapper{ 
+			display:block; 
+			width:100%; 
+			margin:auto; 
+		} 
+		#content{ 
+			display:block; 
+			width:100%; 
+			margin:auto; 
+		}	
+	</style>
+	</head>	
+	<body>
+		<a href="../index.html">Home</a>
+		<div id="wrapper">
+            <div id="content">
+                <img id="avatar" src="../avatar2.png"></img>
+            </div>
+        </div> 
+		<h1> Book Reviews </h1>		
+		<div class="bookshelf">
+			<div class="book">
+				<a href="crime_and_punishment.html">				
+					<div class="side spine" style="height: 280px; top: 0px; background-image: var(--argyle); background-color: rgb(204, 204, 192);">
+						<span class="spine-title" style="font-size: larger; color: black; font-family: sans-serif;">Crime and Punishment</span>
+						<span class="spine-author" style="color: black; font-family: sans-serif;">FD</span>					
+					</div>
+				</a>
+				<div class="side top" style="top: 0px;"></div>
+				<div class="side cover", style="background-image: url(assets/crime_and_punishment.jpg); height: 280px; top: 0px;"></div>
+			</div>
+			<div class="book">
+				<a href="the_kite_runner.html">
+					<div class="side spine" style="height: 280px; top: 0px; background-image: var(--argyle); background-color: rgb(120, 201, 255);">
+						<span class="spine-title" style="font-size: larger; color: rgb(156, 37, 37); font-family: sans-serif;">The Kite Runner</span>
+						<span class="spine-author" style="color: rgb(156, 37, 37); font-family: sans-serif">KH</span>
+					</div>
+				</a>
+				<div class="side top" style="top: 0px;"></div>
+				<div class="side cover", style="background-image: url(assets/the_kite_runner.jpg); height: 280px; top: 0px;"></div>
+			</div>
+		</div>
+		<div style="position: relative; width: 600px; height: 800px;">			
+			<div style="position: absolute; bottom: 5px">
+				<i>Thanks to <a href="https://petargyurov.com/" target="_blank">Petar</a> for the cool <a href="https://github.com/petargyurov/virtual-bookshelf" target="_blank">virtual bookshelf</a>!</i>
+			</div>
+		</div>
+	</body>
+</html>
